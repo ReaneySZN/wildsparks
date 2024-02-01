@@ -1,25 +1,47 @@
 import React from "react";
-import footer from "/public/svg/bottom_img.png";
-import Logo from "/public/svg/Logo.svg";
+import { items } from "./Data";
+import Header from "../../Components/Header";
 
 export default function index() {
   return (
-    <div className="bg-dark">
-      <div className="container px-8">
-        <div className="row">
-          <div className="text-left float-left pt-[7rem] mb-[54px]">
-            <img src={Logo} alt="" />
-          </div>
-          <div className="col-lg-8 col-md-10 col-12">
-            <div className="text-[48px] font-500 text-white text-left mb-[80px]">
-              We are a food and agro-allied company nourishing the world.
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-2 col-12"></div>
+    <div className="bg-dark-custom">
+      <div className="container">
+        <div>
+          <Header />
         </div>
-      </div>
-      <div className="w-100">
-        <img className="w-100" src={footer} alt="" />
+        <div className="md:text-[48px] text-[40px] text-[#FEFEFE] mb-[40px]">
+          We are a food and agro-allied
+          <br /> company nourishing the world.
+        </div>
+        <div className="row pb-[60px]">
+          {items.map((item, index) => (
+            <div
+              key={index}
+              className="col-lg-4 col-md-4 md:py-[8.5rem] lg:py-0 sm:py-0"
+            >
+              <div className="flex flex-col">
+                <div className="">
+                  <img src={item.image} alt="" />
+                </div>
+                <div className="flex flex-col mb-4">
+                  <div className={`md:text-[42px] text-[36px] text-[#FFFFFF]`}>
+                    {item.title}
+                  </div>
+                  {item.linkText && (
+                    <div className="underline md:text-[24px] text-[20px] text-[#FEFEFE]">
+                      <a href={item.linkUrl}>{item.linkText}</a>
+                    </div>
+                  )}
+                  {item.comingSoon && (
+                    <div className="bg-[#242424] w-[fit-content] py-1 px-3 rounded-[48px] md:text-[24px] text-[20px] text-[#FEFEFE]">
+                      Coming soon
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

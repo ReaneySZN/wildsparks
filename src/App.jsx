@@ -2,8 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Page/Home";
-import FoodAndAgro from "./Page/FoodAndAgro";
-import Exporter from "./Page/Exporter";
+import PalmPlantation from "./Page/PalmPlantation";
 
 function App() {
   return (
@@ -11,8 +10,7 @@ function App() {
       <Routes>
         <Route>
           <Route path="/" element={<Home />} />
-          <Route path="/food_and_agro" element={<FoodAndAgro />} />
-          <Route path="/exporter" element={<Exporter />} />
+          <Route path="/palm_plantation" element={<PalmPlantation />} />
         </Route>
       </Routes>
     </>

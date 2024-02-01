@@ -4,7 +4,12 @@ export default {
   theme: {
     extend: {
       backgroundColor: {
-        dark: "#121212",
+        "dark-custom": "#191919",
+      },
+      backgroundImage: {
+        "hero-pattern": 'url("/public/img/Hero.png")',
+        "sustain-img": 'url("/public/img/sustain.png")',
+        "people-img": 'url("/public/img/people.png")',
       },
     },
   },
