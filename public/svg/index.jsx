@@ -214,3 +214,35 @@ export const TiktokIcon = () => (
     </defs>
   </svg>
 );
+export const CloseBtnIcon = () => (
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M17 17L9.00002 9.00002M9.00002 9.00002L1 1M9.00002 9.00002L17 1M9.00002 9.00002L1 17"
+      stroke="#121212"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+export const TickIcon = () => (
+  <svg
+    width="97"
+    className="mx-auto"
+    height="96"
+    viewBox="0 0 97 96"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M48.5 8C26.46 8 8.5 25.96 8.5 48C8.5 70.04 26.46 88 48.5 88C70.54 88 88.5 70.04 88.5 48C88.5 25.96 70.54 8 48.5 8ZM67.62 38.8L44.94 61.48C44.38 62.04 43.62 62.36 42.82 62.36C42.02 62.36 41.26 62.04 40.7 61.48L29.38 50.16C28.22 49 28.22 47.08 29.38 45.92C30.54 44.76 32.46 44.76 33.62 45.92L42.82 55.12L63.38 34.56C64.54 33.4 66.46 33.4 67.62 34.56C68.78 35.72 68.78 37.6 67.62 38.8Z"
+      fill="#00AB4F"
+    />
+  </svg>
+);

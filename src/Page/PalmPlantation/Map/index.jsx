@@ -17,7 +17,7 @@ export default function index() {
           security and deliver sustainable future.
         </div>
         <div className="row mb-[80px]">
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6">
             <div className="flex flex-col">
               <div className="text-[34px] text-white my-[32px]">
                 100,000 hectares
@@ -42,7 +42,7 @@ export default function index() {
               </div>
             </div>
           </div>
-          <div className="col-lg-8">
+          <div className="col-lg-8 col-md-6">
             <div className="">
               <img src={MapImg} alt="" />
             </div>

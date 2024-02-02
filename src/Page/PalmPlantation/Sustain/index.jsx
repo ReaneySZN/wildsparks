@@ -7,9 +7,9 @@ export default function index() {
         <div className="text-[48px] text-center text-[#FEFEFE] mb-[40px]">
           Delivering sustainable futures
         </div>
-        <div className="row mb-[80px]">
+        <div className="row pb-[80px]">
           <div className="col-lg-6">
-            <div className="bg-sustain-img px-[60px]">
+            <div className="bg-sustain-img px-[60px]  md:mb-5">
               <div className="text-[28px] text-[#FFFFFF] pt-[60px]">
                 Sustainability
               </div>

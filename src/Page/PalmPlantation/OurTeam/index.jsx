@@ -8,7 +8,7 @@ export default function index() {
         <div className="text-[48px] text-white mb-[40px]">Our team</div>
         <div className="row pb-[80px]">
           {teamMembers.map((member, index) => (
-            <div key={index} className="col-lg-4">
+            <div key={index} className="col-lg-4 col-md-4">
               <div className="flex flex-col">
                 <div className="">
                   <img src={member.image} alt="" />

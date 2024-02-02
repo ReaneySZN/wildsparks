@@ -11,10 +11,10 @@ export default function index() {
     <div className="bg-dark-custom">
       <div className="container">
         <div className="row ">
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6">
             <img src="/public/img/Plant.png" alt="" />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6">
             <div className="text-[45px] text-white mb-[40px]">
               Let’s reimagine plantations and ensure food security
             </div>
@@ -23,8 +23,8 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center border-b border-b-[#2F2F2F] pb-[25px] pt-[80px]">
-          <div className="flex justify-between space-x-5">
+        <div className="flex flex-col md:flex-row justify-between items-center border-b border-b-[#2F2F2F] pb-[25px] pt-[80px]">
+          <div className="flex flex-col md:flex-row text-center justify-between space-x-5">
             <div className="text-[18px] text-white">hello@wildsparks.com</div>
             <div className="text-[18px] text-white">+234 700 933 933 933</div>
           </div>
@@ -35,7 +35,7 @@ export default function index() {
             <TiktokIcon />
           </div>
         </div>
-        <div className="flex justify-between items-center border-b border-b-[#2F2F2F] py-[25px]">
+        <div className="flex flex-col lg:flex-row md:flex-row justify-between items-center border-b border-b-[#2F2F2F] py-[25px]">
           <div className="flex justify-between space-x-[5rem]">
             <div className="text-[18px] text-[#838383]">Privacy</div>
             <div className="text-[18px] text-[#838383]">Terms</div>

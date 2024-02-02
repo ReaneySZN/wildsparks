@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../../Components/Header";
+import FormModal from "../../../Components/Modal/FormModal";
+import SuccessModal from "../../../Components/Modal/SuccessModal";
 
 export default function index() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [showModal, setShowModal] = useState(true);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div>
-      <div className="bg-hero-pattern pb-[90px]">
+      <div className="bg-hero-pattern pt-[10px] pb-[90px]">
         <div className="container">
-          <Header titleText={"Invest Now"} />
-          <div className="text-[64px] text-center text-[#FEFEFE]">
+          <Header openModal={openModal} Text={"Invest Now"} />
+          <FormModal isOpen={isModalOpen} onClose={closeModal} />
+          {showModal && <SuccessModal />}
+          <div className="text-[64px] text-center text-[#FEFEFE] mb-4">
             Palm Plantation Reimagined
           </div>
           <div className="text-[24px] text-center text-[#EAEAEA] mb-[90px]">

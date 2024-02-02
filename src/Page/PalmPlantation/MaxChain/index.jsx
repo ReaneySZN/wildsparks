@@ -24,7 +24,7 @@ export default function index() {
           surfactants, and industrial lubricants,
           <br /> oleo chemicals and biodiesel.
         </div>
-        <div className="flex justify-between text-center">
+        <div className="flex wrap justify-between text-center">
           <div className="">
             <img src={Nursery} alt="" />
             <div className="text-[24px] text-[#121212] mt-3">Nursery</div>
