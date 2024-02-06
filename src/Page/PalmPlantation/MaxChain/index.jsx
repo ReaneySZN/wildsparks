@@ -11,18 +11,18 @@ import Fiber from "/public/img/Fresh_fiber.png";
 export default function index() {
   return (
     <div>
-      <div className="container my-[90px]">
+      <div className="container my-[90px] font-1">
         <div className="text-[48px] text-[#121212]">
           Maximising the value chain
         </div>
-        <div className="text-[#767676] text-[24px] mb-[80px]">
+        <div className="text-[#767676] text-[24px] mb-[80px] w-[65%] leading-[40px] font-2 font-light">
           Our Palms Downstream will safeguard the upstream operations by
           providing a guaranteed
-          <br /> uptake of Crude Palm Oil (CPO) for value-added products such as
+         uptake of Crude Palm Oil (CPO) for value-added products such as
           margarine, soaps,
-          <br /> lipsticks, and polishes to confectionary, cooking oils,
+           lipsticks, and polishes to confectionary, cooking oils,
           surfactants, and industrial lubricants,
-          <br /> oleo chemicals and biodiesel.
+          oleo chemicals and biodiesel.
         </div>
         <div className="flex wrap justify-between text-center">
           <div className="">

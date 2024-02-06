@@ -74,21 +74,10 @@ export const AppleBtnIconBlack = () => (
   </svg>
 );
 export const MenuBtn = () => (
-  <svg
-    width="48"
-    height="48"
-    viewBox="0 0 48 48"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M10 34H26M10 24H38M10 14H26"
-      stroke="white"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
+  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 34H26M10 24H38M10 14H26" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
+  
 );
 export const ChevronDownBlack = () => (
   <svg
@@ -246,3 +235,25 @@ export const TickIcon = () => (
     />
   </svg>
 );
+
+
+
+export const TimeLineSelect =()=>(
+  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="16" cy="16" r="15.5" fill="url(#paint0_radial_1973_992)" stroke="#464646"/>
+  <defs>
+  <radialGradient id="paint0_radial_1973_992" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.0361 15.9814) scale(15.3249 16.7524)">
+  <stop offset="0.52" stop-color="#E8E73B"/>
+  <stop offset="1" stop-color="#F68A21"/>
+  </radialGradient>
+  </defs>
+  </svg>
+)
+
+export const TimeLineNotSelected = () =>(
+  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="16" cy="16" r="15.5" fill="#191919" stroke="#464646"/>
+<circle cx="16" cy="16" r="9.5" fill="#191919" stroke="#464646"/>
+</svg>
+
+)

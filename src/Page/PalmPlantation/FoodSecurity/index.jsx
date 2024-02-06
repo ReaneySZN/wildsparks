@@ -10,9 +10,9 @@ export default function index() {
   return (
     <div className="bg-dark-custom">
       <div className="container">
-        <div className="row ">
-          <div className="col-lg-6 col-md-6">
-            <img src="/public/img/Plant.png" alt="" />
+        <div className="flex items-center justify-center  gap-[80px]">
+          <div className="">
+            <img src="/public/img/Plant.png" alt="" className="w-full object-cover" />
           </div>
           <div className="col-lg-6 col-md-6">
             <div className="text-[45px] text-white mb-[40px]">
