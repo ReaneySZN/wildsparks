@@ -17,7 +17,7 @@ export default function TimeLine() {
             {selected ? <TimeLineSelect /> : <TimeLineNotSelected />}
           </div>
         </div>
-        <div className="pl-4 font-1 text-center">
+        <div className=" font-1 text-center">
           <div className=" text-[#B3B3B3] text-[20px]  ">{name}</div>
           <div className="text-[24px] text-white">{time}</div>
         </div>

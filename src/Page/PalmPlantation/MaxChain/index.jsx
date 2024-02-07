@@ -15,7 +15,7 @@ export default function index() {
         <div className="text-[48px] text-[#121212]">
           Maximising the value chain
         </div>
-        <div className="text-[#767676] text-[24px] mb-[80px] w-[65%] leading-[40px] font-2 font-light">
+        <div className="text-[#767676] text-[24px] mb-[80px] w-[65%] leading-[40px] font-1">
           Our Palms Downstream will safeguard the upstream operations by
           providing a guaranteed
          uptake of Crude Palm Oil (CPO) for value-added products such as
@@ -24,11 +24,12 @@ export default function index() {
           surfactants, and industrial lubricants,
           oleo chemicals and biodiesel.
         </div>
-        <div className="flex wrap justify-between text-center">
+        <div className="flex wrap justify-between text-center items-center">
           <div className="">
             <img src={Nursery} alt="" />
             <div className="text-[24px] text-[#121212] mt-3">Nursery</div>
           </div>
+          {/* <div className="h-[2px] flex-1 bg-black"></div> */}
           <div className="flex flex-col justify-between items-center ">
             <div className="mb-[80px]">
               <img src={PalmPlantation} alt="" />
@@ -36,7 +37,7 @@ export default function index() {
                 Palm plantation
               </div>
             </div>
-            <div className="flex">
+            {/* <div className="flex">
               <div className="">
                 <img src={Fruit} alt="" />
                 <div className="text-[24px] text-[#121212] mt-3">
@@ -52,9 +53,9 @@ export default function index() {
                   <br /> estate
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
-          <div className="flex flex-col justify-between items-center">
+          {/* <div className="flex flex-col justify-between items-center">
             <div className="mb-[80px]">
               <img src={Miling} alt="" />
               <div className="text-[24px] text-[#121212] mt-3">Miling</div>
@@ -76,7 +77,7 @@ export default function index() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="">
             <img src={Refine} alt="" />
             <div className="text-[24px] text-[#121212] mt-3">
