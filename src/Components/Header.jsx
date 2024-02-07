@@ -12,7 +12,7 @@ export default function Header({ openModal, Text }) {
           </div>
           <div className="flex items-center space-x-2">
             <div className="">
-              {Text&& <div >
+              {Text&& <div className="hidden lg:block">
                 {Text && <button className="bg-white rounded-[56px] py-[12px] px-[32px] text-[#121212] text-[22px]" onClick={openModal}>{Text}</button>}
               </div> }
             </div>

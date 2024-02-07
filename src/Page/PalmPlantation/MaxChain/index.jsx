@@ -7,15 +7,16 @@ import Fruit from "/public/img/Fresh_fruit.png";
 import Estate from "/public/img/Real_estate.png";
 import CPO from "/public/img/CPO.png";
 import Fiber from "/public/img/Fresh_fiber.png";
+import { Container } from "../../../../utils";
 
 export default function index() {
   return (
     <div>
-      <div className="container my-[90px] font-1">
-        <div className="text-[48px] text-[#121212]">
+      <div className={`${Container} my-[60px] lg:my-[90px] font-1`}>
+        <div className="text-[35px] md:text-[48px] text-[#121212]">
           Maximising the value chain
         </div>
-        <div className="text-[#767676] text-[24px] mb-[80px] w-[65%] leading-[40px] font-1">
+        <div className="text-[#767676] text-[18px] lg:text-[24px] mb-[80px] md:w-[65%] leading-[30px] lg:leading-[40px] font-1">
           Our Palms Downstream will safeguard the upstream operations by
           providing a guaranteed
          uptake of Crude Palm Oil (CPO) for value-added products such as
@@ -24,7 +25,7 @@ export default function index() {
           surfactants, and industrial lubricants,
           oleo chemicals and biodiesel.
         </div>
-        <div className="flex wrap justify-between text-center items-center">
+        <div className="flex wrap justify-between text-center items-start">
           <div className="">
             <img src={Nursery} alt="" />
             <div className="text-[24px] text-[#121212] mt-3">Nursery</div>

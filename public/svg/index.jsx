@@ -74,10 +74,21 @@ export const AppleBtnIconBlack = () => (
   </svg>
 );
 export const MenuBtn = () => (
-  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M10 34H26M10 24H38M10 14H26" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <svg
+    width="48"
+    height="48"
+    viewBox="0 0 48 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M10 34H26M10 24H38M10 14H26"
+      stroke="white"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
   </svg>
-  
 );
 export const ChevronDownBlack = () => (
   <svg
@@ -236,24 +247,160 @@ export const TickIcon = () => (
   </svg>
 );
 
-
-
-export const TimeLineSelect =()=>(
-  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="16" cy="16" r="15.5" fill="url(#paint0_radial_1973_992)" stroke="#464646"/>
-  <defs>
-  <radialGradient id="paint0_radial_1973_992" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.0361 15.9814) scale(15.3249 16.7524)">
-  <stop offset="0.52" stop-color="#E8E73B"/>
-  <stop offset="1" stop-color="#F68A21"/>
-  </radialGradient>
-  </defs>
+export const TimeLineSelect = () => (
+  <svg
+    width="32"
+    height="32"
+    viewBox="0 0 32 32"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      cx="16"
+      cy="16"
+      r="15.5"
+      fill="url(#paint0_radial_1973_992)"
+      stroke="#464646"
+    />
+    <defs>
+      <radialGradient
+        id="paint0_radial_1973_992"
+        cx="0"
+        cy="0"
+        r="1"
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(16.0361 15.9814) scale(15.3249 16.7524)"
+      >
+        <stop offset="0.52" stop-color="#E8E73B" />
+        <stop offset="1" stop-color="#F68A21" />
+      </radialGradient>
+    </defs>
   </svg>
-)
+);
 
-export const TimeLineNotSelected = () =>(
-  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="16" cy="16" r="15.5" fill="#191919" stroke="#464646"/>
-<circle cx="16" cy="16" r="9.5" fill="#191919" stroke="#464646"/>
-</svg>
+export const TimeLineSelectMobile = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      cx="12"
+      cy="12"
+      r="11.5"
+      fill="url(#paint0_radial_2357_791)"
+      stroke="#464646"
+    />
+    <circle cx="12" cy="12" r="7.5" fill="url(#paint1_radial_2357_791)" />
+    <defs>
+      <radialGradient
+        id="paint0_radial_2357_791"
+        cx="0"
+        cy="0"
+        r="1"
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(12.0271 11.986) scale(11.4937 12.5643)"
+      >
+        <stop offset="0.52" stop-color="#E8E73B" />
+        <stop offset="1" stop-color="#F68A21" />
+      </radialGradient>
+      <radialGradient
+        id="paint1_radial_2357_791"
+        cx="0"
+        cy="0"
+        r="1"
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(12.0169 11.9913) scale(7.18354 7.85271)"
+      >
+        <stop offset="0.52" stop-color="#E8E73B" />
+        <stop offset="1" stop-color="#F68A21" />
+      </radialGradient>
+    </defs>
+  </svg>
+);
 
-)
+export const TimeLineNotSelectedMobile = () => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx="12" cy="12" r="11.5" fill="#191919" stroke="#464646" />
+    <circle cx="12" cy="12" r="7" fill="#191919" stroke="#464646" />
+  </svg>
+);
+
+export const TimeLineNotSelected = () => (
+  <svg
+    width="32"
+    height="32"
+    viewBox="0 0 32 32"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx="16" cy="16" r="15.5" fill="#191919" stroke="#464646" />
+    <circle cx="16" cy="16" r="9.5" fill="#191919" stroke="#464646" />
+  </svg>
+);
+
+export const ArrowRight = () => (
+  <svg
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      x="1"
+      y="1"
+      width="62"
+      height="62"
+      rx="31"
+      stroke="#FEFEFE"
+      stroke-width="2"
+    />
+    <path
+      d="M21.2084 31.9999C21.2084 32.2215 21.29 32.4432 21.465 32.6182L28.5467 39.6999C28.885 40.0382 29.445 40.0382 29.7834 39.6999C30.1217 39.3615 30.1217 38.8015 29.7834 38.4632L23.32 31.9999L29.7834 25.5365C30.1217 25.1982 30.1217 24.6382 29.7834 24.2999C29.445 23.9615 28.885 23.9615 28.5467 24.2999L21.465 31.3815C21.29 31.5565 21.2084 31.7782 21.2084 31.9999Z"
+      fill="#FEFEFE"
+    />
+    <path
+      d="M21.4067 32C21.4067 32.4783 21.8034 32.875 22.2817 32.875H41.9167C42.3951 32.875 42.7917 32.4783 42.7917 32C42.7917 31.5217 42.3951 31.125 41.9167 31.125H22.2817C21.8034 31.125 21.4067 31.5217 21.4067 32Z"
+      fill="#FEFEFE"
+    />
+  </svg>
+);
+
+export const ArrowLeft = () => (
+  <svg
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g opacity="0.3">
+      <rect
+        x="1"
+        y="1"
+        width="62"
+        height="62"
+        rx="31"
+        stroke="#FEFEFE"
+        stroke-width="2"
+      />
+      <path
+        d="M42.7916 31.9999C42.7916 32.2215 42.71 32.4432 42.535 32.6182L35.4533 39.6999C35.115 40.0382 34.555 40.0382 34.2166 39.6999C33.8783 39.3615 33.8783 38.8015 34.2166 38.4632L40.68 31.9999L34.2166 25.5365C33.8783 25.1982 33.8783 24.6382 34.2166 24.2999C34.555 23.9615 35.115 23.9615 35.4533 24.2999L42.535 31.3815C42.71 31.5565 42.7916 31.7782 42.7916 31.9999Z"
+        fill="#FEFEFE"
+      />
+      <path
+        d="M42.5933 32C42.5933 32.4783 42.1966 32.875 41.7183 32.875H22.0833C21.6049 32.875 21.2083 32.4783 21.2083 32C21.2083 31.5217 21.6049 31.125 22.0833 31.125H41.7183C42.1966 31.125 42.5933 31.5217 42.5933 32Z"
+        fill="#FEFEFE"
+      />
+    </g>
+  </svg>
+);

@@ -1,11 +1,12 @@
 import React from "react";
 import { items } from "./Data";
 import Header from "../../Components/Header";
+import { Container } from "../../../utils";
 
 export default function index() {
   return (
-    <div className="bg-dark-custom min-h-[100vh] font-1">
-      <div className="container flex flex-col justify-between min-h-[100vh]">
+    <div className="bg-dark-custom min-h-[100vh] font-1 overflow-hidden">
+      <div className={` flex flex-col min-h-[100vh] justify-between ${Container}`}>
         <div>
           <Header />
         </div>
@@ -23,7 +24,7 @@ export default function index() {
             >
               <div className="flex flex-col">
                 <div className="mb-[36px]">
-                  <img src={item.image} alt=""  className="object-cover  w-full  rounded-"/>
+                  <img src={item.image} alt=""  className="object-cover w-full"/>
                 </div>
                 <div className="flex flex-col mb-4">
                   <div className={`md:text-[42px] text-[30px] lg:text-[36px] text-[#FFFFFF] font-semibold mb-[12px]`}>

@@ -27,6 +27,7 @@ export const TimeData = [
     {
         name:'Phase 5',
         time:'Mar. 2030',
+        position:'last'
         
     },
    
