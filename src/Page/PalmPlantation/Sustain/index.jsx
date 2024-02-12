@@ -8,7 +8,7 @@ export default function index() {
         <div className={`${Container} text-[30px] lg:text-[35px] xl:text-[48px] text-center text-[#FEFEFE] mb-[40px]`}>
           Delivering sustainable futures
         </div>
-        <div className="row gy-3 pb-[40px] lg:pb-[80px]">
+        <div className="row gy-3  pb-[40px] lg:pb-[80px] mx-3">
           <div className="col-lg-6">
             <div className="bg-sustain-img bg-cover px-[30px] lg:px-[40px] xl:px-[60px]  md:mb-5 h-[100%]">
               <div className="text-[24px] lg:text-[28px] text-[#FFFFFF] pt-[60px]">

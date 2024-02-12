@@ -38,7 +38,7 @@ export default function MyModal({
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className={`w-[60%] transform overflow-hidden rounded-2xl bg-transparent text-left align-middle shadow-xl transition-all ${containerStyle}`}>
+                <Dialog.Panel className={`w-[90vw] lg:w-[60%] transform overflow-hidden rounded-2xl bg-transparent text-left align-middle shadow-xl transition-all ${containerStyle}`}>
                  {bodyComponent}
                 </Dialog.Panel>
               </Transition.Child>

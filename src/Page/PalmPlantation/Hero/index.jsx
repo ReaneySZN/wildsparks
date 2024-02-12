@@ -7,7 +7,7 @@ import { Container } from "../../../../utils";
 export default function index({
   openModal
 }) {
-  
+  const Container=`px-[20px] lg:px-[40px] xl:px-[80px]`
 
   return (
     <div className="font-1">
@@ -22,7 +22,7 @@ export default function index({
           <div className="text-[55px] md:text-[64px] xl:text-[78px] text-center text-[#FEFEFE] mb-[16px] font-semibold leading-none md:leading-[72px]">
             Palm Plantation Reimagined
           </div>
-          <div className="text-[20px] xl:text-[24px] text-center text-[#EAEAEA] mb-[90px] font-light font-2 leading-[38px] xl:leading-[40px]">
+          <div className="text-[20px] xl:text-[24px] text-center text-[#EAEAEA] mb-[40px] lg:mb-[90px] font-light font-2 leading-[38px] xl:leading-[40px]">
             We are growing the Largest Palm plantation in Africa with a total
             <br />
             land bank of 100,000 hectares and an estimated annual output

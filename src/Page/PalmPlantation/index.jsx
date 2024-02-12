@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import Hero from "./Hero";
 import Producer from "./Producer";
 import Map from "./Map";
@@ -14,33 +14,41 @@ import SuccessPage from "./modules/SuccessPage";
 // import { DialogDefault } from "../../Components/Modal";
 
 export default function index() {
-  let [isOpen, setIsOpen] = useState('Success')
+  let [isOpen, setIsOpen] = useState("Success");
+  
 
   function closeModal() {
-    setIsOpen(null)
+    setIsOpen(null);
   }
 
   function openModal() {
-    setIsOpen('Investment Form')
+    setIsOpen("Investment Form");
   }
 
-  const ModalList =[
+  const ModalList = [
     {
-      name:'Investment Form',
-      component:<InvestForm closeModal={closeModal}/>
+      name: "Investment Form",
+      component: <InvestForm closeModal={closeModal} />,
     },
     {
-      name:'Success',
-      component:<SuccessPage closeModal={closeModal}/>,
-      className:'w-[40vw]'
-    }
-  ]
+      name: "Success",
+      component: <SuccessPage closeModal={closeModal} />,
+      className: "w-[40vw]",
+    },
+  ];
   return (
     <div className="">
-      <ModalComp 
-      containerStyle={ModalList?.find((item,index)=>item?.name===isOpen)?.className}
-      bodyComponent={ModalList?.find((item,index)=>item?.name===isOpen)?.component}
-      isOpen={isOpen?true:false} closeModal={closeModal} openModal={openModal} />
+      <ModalComp
+        containerStyle={
+          ModalList?.find((item, index) => item?.name === isOpen)?.className
+        }
+        bodyComponent={
+          ModalList?.find((item, index) => item?.name === isOpen)?.component
+        }
+        isOpen={isOpen ? true : false}
+        closeModal={closeModal}
+        openModal={openModal}
+      />
       <Hero openModal={openModal} />
       <Producer />
       <Map />

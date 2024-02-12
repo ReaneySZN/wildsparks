@@ -11,7 +11,7 @@ export default function index() {
     <div className="bg-dark-custom font-1">
 
       <div className={`${Container}  pt-[80px] pb-[104px] !lg:px-0 xl:px-0 `}>
-        <div className="text-[40px] lg:text-[56px] text-center text-[#FEFEFE] mb-[16px]">
+        <div className="text-[35px] leading-none lg:text-[56px] text-center text-[#FEFEFE] mb-[16px]">
           We are reimagining the future
         </div>
         <div className="text-[20px] text-center text-[#EAEAEA] mb-[56px] leading-[28px] xl:leading-[34px] font-1">
